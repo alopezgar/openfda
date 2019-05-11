@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>OpenFDA</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Proyecto final">
+        <meta name="author" content="Andrea López Garcia">
+    </head>
+    <body style="background-color: pink">
+        <h1>Bienvenido a OpenFDA </h1>
+        <h2><u>Buscar Medicamentos</u></h2>
+        <form method="get" action="searchDrug">
+            <input type = "text" name="drug"></input><br>
+            <input type = "submit">
+            </input>
+        </form>
+        <h2><u>Buscar Compañías</u></h2>
+        <form method="get" action="searchCompany">
+            <input type = "text" name="company"></input><br>
+            <input type = "submit" >
+            </input>
+        </form>
+        <h2><u>Listado de Medicamentos</u></h2>
+        <form method="get" action="listDrugs">
+            <input type= "number" name = "limit" value="10"></input>
+            <input type = "submit">
+            </input>
+        </form>
+        <h2><u>Listado de Compañías</u></h2>
+        <form method="get" action="listCompanies">
+            <input type= "number" name = "limit" value="10"></input>
+            <input type = "submit">
+            </input>
+        </form>
+        <h2><u>Listado de Advertencias</u></h2>
+        <form method="get" action="listWarnings">
+            <input type= "number" name = "limit" value="10"></input>
+            <input type = "submit">
+            </input>
+        </form>
+    </body>
+</html>
